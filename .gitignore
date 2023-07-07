@@ -1,0 +1,30 @@
+/frontend/.DS_Store
+/frontend/node_modules
+/frontend/dist
+
+
+# local env files
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+
+# Editor directories and files
+/frontend/.idea
+/frontend/.vscode
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
+
+/env
+
+/backend/.vscode
+/backend/backend/__pycache__
+/backend/tictactoe/__pycache__
+/backend/tictactoe/migrations/__pycache__/

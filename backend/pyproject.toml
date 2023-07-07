@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Al-Gon <al0402ex@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "3.2.18"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.1.0"
+black = "^23.3.0"
+isort = "^5.12.0"
+pylint = "^2.17.4"
+pylint-django = "^2.5.3"
+mypy = "^1.4.0"
+django-stubs = "^4.2.1"
+psycopg2 = "^2.9.6"
+django-grappelli = "^3.0.6"
+djoser = "^2.2.0"
+django-extensions = "^3.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
